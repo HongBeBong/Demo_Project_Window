@@ -17,13 +17,6 @@ namespace GUI
         static void Main()
         {
 
-            /* int a = AccountBUS.Instance.deleteAccountById("EMP3");
-             if (a == 1)
-                 Console.WriteLine("Deleted Succeedfully");
-             else if (a == 0)
-                 Console.WriteLine("No Account Has This Id");
-             else
-                 Console.WriteLine("Deleted Failed!!");*/
 
             int a = AccountBUS.Instance.updatedAccountById("EM1", "ThanhDuy", "BuiThanhDuy", "123");
             Console.WriteLine("{0}", a);

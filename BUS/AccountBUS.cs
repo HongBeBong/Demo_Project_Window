@@ -23,13 +23,16 @@ namespace BUS
             private set => instance = value;
         }
 
+        // hàm login
         public bool Login(string userName, string passWord)
         {
+            // lấy list accounts
             List<Account> accounts = AccountDAO.Instance.getAllAccount();
             bool check = accounts.Any(a => a.userName == userName && a.password == passWord);
             return check;
         }
 
+        // một số hàm test crud
         public bool addAccount (string accountID, string accountType, string username, string displayName, string password)
         {
             return AccountDAO.Instance.createAccount(accountID, accountType, username, displayName, password);
