@@ -23,40 +23,12 @@ namespace BUS
             private set => instance = value;
         }
 
-        //--------------------------------------------------------
-       /* public bool ShowAccount(string userName, string passWord)
-        {
-            try
-            {
-                if (AccountDAO.Instance.ShowAccount(userName, passWord) == true)
-                    return true;
-                else
-                    return false;
-            }
-            catch
-            {
-                return false;
-            }
-        }*/
-
         public bool Login(string userName, string passWord)
         {
             List<Account> accounts = AccountDAO.Instance.getAllAccount();
             bool check = accounts.Any(a => a.userName == userName && a.password == passWord);
             return check;
         }
-
-
-        /*public void showAllAccount()
-        {
-            List<Account> listedAccount = AccountDAO.Instance.getAllAccount();
-
-            foreach (Account account in listedAccount)
-            {
-                Console.WriteLine(account.accountEmployeeId);
-            }
-        }*/
-
 
         public bool addAccount (string accountID, string accountType, string username, string displayName, string password)
         {
