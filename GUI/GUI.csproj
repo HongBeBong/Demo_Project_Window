@@ -178,6 +178,10 @@
       <Project>{d1733ff0-9f44-4f60-95b6-7c8724554c05}</Project>
       <Name>BUS</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Demo_Project_Window\DTO.csproj">
+      <Project>{8D6265C2-394D-4D54-93ED-1A00B3EE0121}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Exit.png" />
