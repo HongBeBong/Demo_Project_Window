@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS;
 
 namespace GUI
 {
@@ -15,6 +16,7 @@ namespace GUI
         public frmBooking()
         {
             InitializeComponent();
+            handleFrmBooking();
         }
 
 
@@ -23,30 +25,37 @@ namespace GUI
             this.Close();
         }
 
-        
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
 
-        private void button_CheckTable_Click(object sender, EventArgs e)
-        {
 
-            /*comboBox_Table.DataSource = TableTypeBUS.Instance.getlistTableTypeBUS();
+        // hàm lấy thông tin lên combobox
+        private void displayComboboxTypeTables()
+        {
+            comboBox_Table.DataSource = TableTypeBUS.Instance.getAllTableTypes();
             comboBox_Table.DisplayMember = "TypeName";
             comboBox_Table.ValueMember = "tableTypeId";
-            textBox_CustomerName.ReadOnly = true;
-            textBox_Address.ReadOnly = true;
-            textBox_PhoneNumber.ReadOnly = true;
-            checkBox_FeMale.Enabled = true;
-            checkBox_Male.Enabled = true;
 
-            string tableTypeId = comboBox_Table.ValueMember;
+        }
 
-            bool check = */
-            
+        private void handleFrmBooking()
+        {
+            // không cho ghi sổ thông tin khách hàng khi chưa kiểm tra bàn
+            panelCustomer.Enabled = false;
+            // kéo dữ liệu lên combobox
+            displayComboboxTypeTables();
+        }
 
+        private void button_CheckTable_Click_1(object sender, EventArgs e)
+        {
+            // lấy id của loại bàn
+            string tableTypeId = (string)comboBox_Table.SelectedValue;
 
+            // kiểm tra loại bàn đó còn không
+            string tableId = TableBUS.Instance.getAvailableTableId(tableTypeId);
+
+            if (tableId != null)
+                panelCustomer.Enabled = true;
+            else
+                MessageBox.Show("Hết bàn! Quý khách vui lòng chọn loại bàn khác", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
         }
     }
 }
