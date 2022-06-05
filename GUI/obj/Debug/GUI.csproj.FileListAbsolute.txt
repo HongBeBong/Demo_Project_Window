@@ -1,0 +1,95 @@
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.Properties.Resources.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\GUI.exe.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\GUI.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\GUI.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\Bunifu_UI_v1.52.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\BUS.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\EntityFramework.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\EntityFramework.SqlServer.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\BUS.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\BUS.dll.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\EntityFramework.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\EntityFramework.SqlServer.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.CopyComplete
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\DAO.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\Demo_Project_Window.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\DAO.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\DAO.dll.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\Demo_Project_Window.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\bin\Debug\Demo_Project_Window.exe.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.frmBill.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.frmBooking.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.frmFeature.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.frmLoad.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.frmLogin.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.frmOrder.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.frmStatistical.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\GUI\obj\Debug\GUI.frmAdd.resources
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\GUI.exe.config
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\GUI.exe
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\GUI.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\BUS.dll
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\EntityFramework.dll
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\EntityFramework.SqlServer.dll
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\DAO.dll
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\Demo_Project_Window.exe
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\BUS.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\BUS.dll.config
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\EntityFramework.xml
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\DAO.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\DAO.dll.config
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\Demo_Project_Window.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\bin\Debug\Demo_Project_Window.exe.config
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.frmAdd.resources
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.frmBill.resources
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.frmBooking.resources
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.frmFeature.resources
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.frmLoad.resources
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.frmLogin.resources
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.frmOrder.resources
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.frmStatistical.resources
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.exe
+D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\GUI.exe.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\GUI.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\GUI.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\Bunifu_UI_v1.52.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\BUS.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\EntityFramework.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\EntityFramework.SqlServer.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\DAO.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\Demo_Project_Window.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\BUS.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\BUS.dll.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\EntityFramework.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\EntityFramework.SqlServer.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\DAO.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\DAO.dll.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\Demo_Project_Window.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\Demo_Project_Window.exe.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.frmAdd.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.frmBill.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.frmBooking.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.frmFeature.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.frmLoad.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.frmLogin.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.frmOrder.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.frmStatistical.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.Properties.Resources.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.CopyComplete
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.pdb
