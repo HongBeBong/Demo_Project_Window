@@ -214,9 +214,9 @@ namespace GUI
             // 
             this.textBox_Address.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox_Address.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Address.Location = new System.Drawing.Point(209, 106);
+            this.textBox_Address.Location = new System.Drawing.Point(228, 106);
             this.textBox_Address.Name = "textBox_Address";
-            this.textBox_Address.Size = new System.Drawing.Size(268, 27);
+            this.textBox_Address.Size = new System.Drawing.Size(249, 27);
             this.textBox_Address.TabIndex = 58;
             // 
             // label4
@@ -234,9 +234,9 @@ namespace GUI
             // 
             this.textBox_PhoneNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox_PhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_PhoneNumber.Location = new System.Drawing.Point(209, 55);
+            this.textBox_PhoneNumber.Location = new System.Drawing.Point(228, 55);
             this.textBox_PhoneNumber.Name = "textBox_PhoneNumber";
-            this.textBox_PhoneNumber.Size = new System.Drawing.Size(268, 27);
+            this.textBox_PhoneNumber.Size = new System.Drawing.Size(249, 27);
             this.textBox_PhoneNumber.TabIndex = 56;
             this.textBox_PhoneNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_PhoneNumber_KeyPress);
             // 
@@ -255,9 +255,9 @@ namespace GUI
             // 
             this.textBox_CustomerName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox_CustomerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_CustomerName.Location = new System.Drawing.Point(209, 3);
+            this.textBox_CustomerName.Location = new System.Drawing.Point(228, 3);
             this.textBox_CustomerName.Name = "textBox_CustomerName";
-            this.textBox_CustomerName.Size = new System.Drawing.Size(268, 27);
+            this.textBox_CustomerName.Size = new System.Drawing.Size(249, 27);
             this.textBox_CustomerName.TabIndex = 54;
             this.textBox_CustomerName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_CustomerName_KeyPress);
             // 
@@ -312,9 +312,9 @@ namespace GUI
             // 
             this.comboBox_Table.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_Table.FormattingEnabled = true;
-            this.comboBox_Table.Location = new System.Drawing.Point(208, 3);
+            this.comboBox_Table.Location = new System.Drawing.Point(227, 3);
             this.comboBox_Table.Name = "comboBox_Table";
-            this.comboBox_Table.Size = new System.Drawing.Size(268, 30);
+            this.comboBox_Table.Size = new System.Drawing.Size(249, 30);
             this.comboBox_Table.TabIndex = 50;
             // 
             // label5

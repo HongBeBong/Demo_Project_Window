@@ -1,0 +1,54 @@
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\BUS.dll.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\BUS.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\BUS.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\DAO.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\Demo_Project_Window.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\EntityFramework.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\EntityFramework.SqlServer.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\DAO.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\DAO.dll.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\Demo_Project_Window.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\Demo_Project_Window.exe.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\EntityFramework.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\bin\Debug\EntityFramework.SqlServer.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\obj\Debug\BUS.csproj.CopyComplete
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\obj\Debug\BUS.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\BUS\obj\Debug\BUS.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\obj\Debug\BUS.dll
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\obj\Debug\BUS.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\BUS.dll.config
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\BUS.dll
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\BUS.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\DAO.dll
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\Demo_Project_Window.exe
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\EntityFramework.dll
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\EntityFramework.SqlServer.dll
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\DAO.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\DAO.dll.config
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\Demo_Project_Window.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\Demo_Project_Window.exe.config
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\EntityFramework.xml
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\bin\Debug\EntityFramework.SqlServer.xml
+D:\laptrinhwindows\git\Demo_Project_Window\BUS\obj\Debug\BUS.csproj.CopyComplete
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\BUS.dll.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\BUS.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\BUS.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\DAO.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\Demo_Project_Window.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\EntityFramework.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\EntityFramework.SqlServer.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\DAO.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\DAO.dll.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\Demo_Project_Window.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\Demo_Project_Window.exe.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\EntityFramework.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\bin\Debug\EntityFramework.SqlServer.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\obj\Debug\BUS.csproj.CopyComplete
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\obj\Debug\BUS.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\BUS\obj\Debug\BUS.pdb

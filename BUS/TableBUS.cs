@@ -40,6 +40,13 @@ namespace BUS
             }
         }
 
+        public List<Table> readTable()
+        {
+            List<Table> listTable = new List<Table>();
+            listTable = TableDAO.Instance.readTable();
+            return listTable;
+        }
+
         public bool updateTableStatus(string tableId, string status)
         {
             
@@ -47,7 +54,4 @@ namespace BUS
                 
         }
     }
-
-
-   
 }

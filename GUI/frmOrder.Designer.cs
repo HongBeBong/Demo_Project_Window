@@ -32,9 +32,6 @@ namespace GUI
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOrder));
             this.dataGridView_Order = new System.Windows.Forms.DataGridView();
-            this.FoodName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.comboBox_Category = new System.Windows.Forms.ComboBox();
             this.comboBox_FoodName = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,15 +39,18 @@ namespace GUI
             this.label3 = new System.Windows.Forms.Label();
             this.numericUpDown_Quantity = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox_Table = new System.Windows.Forms.ComboBox();
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.pictureBox_Exit = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel_Table = new System.Windows.Forms.FlowLayoutPanel();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.button_SwicthTable = new Bunifu.Framework.UI.BunifuThinButton2();
             this.button_Order = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.pictureBox_Exit = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.FoodName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Order)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Quantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Exit)).BeginInit();
@@ -73,24 +73,6 @@ namespace GUI
             this.dataGridView_Order.Size = new System.Drawing.Size(729, 472);
             this.dataGridView_Order.TabIndex = 1;
             // 
-            // FoodName
-            // 
-            this.FoodName.HeaderText = "Food Name";
-            this.FoodName.MinimumWidth = 6;
-            this.FoodName.Name = "FoodName";
-            // 
-            // Quantity
-            // 
-            this.Quantity.HeaderText = "Quantity";
-            this.Quantity.MinimumWidth = 6;
-            this.Quantity.Name = "Quantity";
-            // 
-            // Price
-            // 
-            this.Price.HeaderText = "Price";
-            this.Price.MinimumWidth = 6;
-            this.Price.Name = "Price";
-            // 
             // comboBox_Category
             // 
             this.comboBox_Category.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -99,6 +81,7 @@ namespace GUI
             this.comboBox_Category.Name = "comboBox_Category";
             this.comboBox_Category.Size = new System.Drawing.Size(214, 28);
             this.comboBox_Category.TabIndex = 2;
+            this.comboBox_Category.SelectedIndexChanged += new System.EventHandler(this.comboBox_Category_SelectedIndexChanged);
             // 
             // comboBox_FoodName
             // 
@@ -163,19 +146,30 @@ namespace GUI
             this.label4.TabIndex = 8;
             this.label4.Text = "Choose Table:";
             // 
-            // comboBox1
+            // comboBox_Table
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(957, 607);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(129, 28);
-            this.comboBox1.TabIndex = 9;
+            this.comboBox_Table.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox_Table.FormattingEnabled = true;
+            this.comboBox_Table.Location = new System.Drawing.Point(957, 607);
+            this.comboBox_Table.Name = "comboBox_Table";
+            this.comboBox_Table.Size = new System.Drawing.Size(129, 28);
+            this.comboBox_Table.TabIndex = 9;
             // 
             // bunifuElipse2
             // 
             this.bunifuElipse2.ElipseRadius = 20;
             this.bunifuElipse2.TargetControl = this.pictureBox_Exit;
+            // 
+            // pictureBox_Exit
+            // 
+            this.pictureBox_Exit.Image = global::GUI.Properties.Resources.Exit;
+            this.pictureBox_Exit.Location = new System.Drawing.Point(1040, 9);
+            this.pictureBox_Exit.Name = "pictureBox_Exit";
+            this.pictureBox_Exit.Size = new System.Drawing.Size(46, 45);
+            this.pictureBox_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Exit.TabIndex = 14;
+            this.pictureBox_Exit.TabStop = false;
+            this.pictureBox_Exit.Click += new System.EventHandler(this.pictureBox_Exit_Click);
             // 
             // flowLayoutPanel_Table
             // 
@@ -240,17 +234,7 @@ namespace GUI
             this.button_Order.Size = new System.Drawing.Size(86, 43);
             this.button_Order.TabIndex = 22;
             this.button_Order.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox_Exit
-            // 
-            this.pictureBox_Exit.Image = global::GUI.Properties.Resources.Exit;
-            this.pictureBox_Exit.Location = new System.Drawing.Point(1040, 9);
-            this.pictureBox_Exit.Name = "pictureBox_Exit";
-            this.pictureBox_Exit.Size = new System.Drawing.Size(46, 45);
-            this.pictureBox_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_Exit.TabIndex = 14;
-            this.pictureBox_Exit.TabStop = false;
-            this.pictureBox_Exit.Click += new System.EventHandler(this.pictureBox_Exit_Click);
+            this.button_Order.Click += new System.EventHandler(this.button_Order_Click);
             // 
             // pictureBox1
             // 
@@ -261,6 +245,27 @@ namespace GUI
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
+            // 
+            // FoodName
+            // 
+            this.FoodName.DataPropertyName = "dishName";
+            this.FoodName.HeaderText = "Food Name";
+            this.FoodName.MinimumWidth = 6;
+            this.FoodName.Name = "FoodName";
+            // 
+            // Quantity
+            // 
+            this.Quantity.DataPropertyName = "quatity";
+            this.Quantity.HeaderText = "Quantity";
+            this.Quantity.MinimumWidth = 6;
+            this.Quantity.Name = "Quantity";
+            // 
+            // Price
+            // 
+            this.Price.DataPropertyName = "price";
+            this.Price.HeaderText = "Price";
+            this.Price.MinimumWidth = 6;
+            this.Price.Name = "Price";
             // 
             // frmOrder
             // 
@@ -273,7 +278,7 @@ namespace GUI
             this.Controls.Add(this.flowLayoutPanel_Table);
             this.Controls.Add(this.pictureBox_Exit);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBox_Table);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.numericUpDown_Quantity);
             this.Controls.Add(this.label3);
@@ -303,18 +308,18 @@ namespace GUI
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown numericUpDown_Quantity;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox_Table;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox_Exit;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel_Table;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FoodName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
         private Bunifu.Framework.UI.BunifuThinButton2 button_Order;
         private Bunifu.Framework.UI.BunifuThinButton2 button_SwicthTable;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FoodName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
     }
 }

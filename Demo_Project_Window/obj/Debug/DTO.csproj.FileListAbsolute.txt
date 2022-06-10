@@ -1,0 +1,56 @@
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csproj.GenerateResource.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.Properties.Resources.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.exe.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\bin\Debug\Bunifu_UI_v1.52.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.SqlServer.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.SqlServer.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csproj.CopyComplete
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.exe.config
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.exe
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.dll
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.SqlServer.dll
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.xml
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.SqlServer.xml
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.Properties.Resources.resources
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csproj.GenerateResource.cache
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.exe
+D:\laptrinhwindows\git\Demo_Project_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.exe.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.SqlServer.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\bin\Debug\EntityFramework.SqlServer.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.Properties.Resources.resources
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csproj.GenerateResource.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\obj\Debug\DTO.csproj.CopyComplete
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.pdb
+D:\tmp\Project_Final_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.exe.config
+D:\tmp\Project_Final_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.exe
+D:\tmp\Project_Final_Window\Demo_Project_Window\bin\Debug\Demo_Project_Window.pdb
+D:\tmp\Project_Final_Window\Demo_Project_Window\bin\Debug\EntityFramework.dll
+D:\tmp\Project_Final_Window\Demo_Project_Window\bin\Debug\EntityFramework.SqlServer.dll
+D:\tmp\Project_Final_Window\Demo_Project_Window\bin\Debug\EntityFramework.xml
+D:\tmp\Project_Final_Window\Demo_Project_Window\bin\Debug\EntityFramework.SqlServer.xml
+D:\tmp\Project_Final_Window\Demo_Project_Window\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\tmp\Project_Final_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.Properties.Resources.resources
+D:\tmp\Project_Final_Window\Demo_Project_Window\obj\Debug\DTO.csproj.GenerateResource.cache
+D:\tmp\Project_Final_Window\Demo_Project_Window\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\tmp\Project_Final_Window\Demo_Project_Window\obj\Debug\DTO.csproj.CopyComplete
+D:\tmp\Project_Final_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.exe
+D:\tmp\Project_Final_Window\Demo_Project_Window\obj\Debug\Demo_Project_Window.pdb

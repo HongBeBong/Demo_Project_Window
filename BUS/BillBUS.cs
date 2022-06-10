@@ -23,6 +23,22 @@ namespace BUS
             private set => instance = value;
         }
 
+        public int getListBillByTableId(string tableId)
+        {
+            try
+            {
+                List<Bill> listBill = new List<Bill>();
+                listBill = BillDAO.Instance.getListBillByTableId(tableId);
+                if (listBill != null)
+                    return listBill[0].billId;
+                else
+                    return -1;
+            }
+            catch
+            {
+                return -1;
+            }
+        }
         
         public bool addBill (int customerId, string tableId)
         {

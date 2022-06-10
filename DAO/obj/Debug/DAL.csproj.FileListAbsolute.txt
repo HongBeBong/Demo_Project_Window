@@ -1,0 +1,30 @@
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\bin\Debug\DAO.dll.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\bin\Debug\DAO.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\bin\Debug\DAO.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\bin\Debug\Demo_Project_Window.exe
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\bin\Debug\EntityFramework.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\bin\Debug\EntityFramework.SqlServer.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\bin\Debug\Demo_Project_Window.pdb
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\bin\Debug\Demo_Project_Window.exe.config
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\bin\Debug\EntityFramework.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\bin\Debug\EntityFramework.SqlServer.xml
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\obj\Debug\DAL.csprojAssemblyReference.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\obj\Debug\DAL.csproj.CopyComplete
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\obj\Debug\DAO.dll
+E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT CUỐI KÌ\Demo_Project_Window\DAO\obj\Debug\DAO.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\bin\Debug\DAO.dll.config
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\bin\Debug\DAO.dll
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\bin\Debug\DAO.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\bin\Debug\Demo_Project_Window.exe
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\bin\Debug\EntityFramework.dll
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\bin\Debug\EntityFramework.SqlServer.dll
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\bin\Debug\Demo_Project_Window.pdb
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\bin\Debug\Demo_Project_Window.exe.config
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\bin\Debug\EntityFramework.xml
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\bin\Debug\EntityFramework.SqlServer.xml
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\obj\Debug\DAL.csproj.CopyComplete
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\obj\Debug\DAO.dll
+D:\laptrinhwindows\git\Demo_Project_Window\DAO\obj\Debug\DAO.pdb
