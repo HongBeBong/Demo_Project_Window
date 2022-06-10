@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 //using DTO.Migrations;
 using GUI;
 using GUI.Maps;
@@ -149,6 +150,53 @@ namespace DAO
                 return null;
             }
         }
+        //----------------------------------------------------------------------------------------
+        public List<Dish> getListFoodByCategoryId(string categoryId)
+        {
+            try
+            {
+                var listDish = db.Dishes.Where(d => d.categoryId == categoryId).ToList<Dish>();
+                return listDish;
+            }
+            catch
+            {
+                return null;
+            }
+        }
 
+        public void showInfoOrder(DataGridView dtv, string tableId)
+        {
+            try
+            {
+                using (var con = new Context())
+                {
+                    var listInfoOrder = con.BillDetails.Join(con.Dishes,
+                            billDetail => billDetail.dishId,
+                            dish => dish.dishId,
+                            (billDetail, dish) => new { billDetail, dish }
+                        )
+                        .Join(con.Bills,
+                            p => p.billDetail.billId,
+                            bill => bill.billId,
+                            (p, bill) => new { p, bill}
+                        )
+                        .Where(item => item.bill.billId == item.p.billDetail.billId 
+                        && item.p.billDetail.dishId == item.p.dish.dishId 
+                        && item.bill.tableId == tableId)
+                        .Select(item => new
+                        {
+                            dishName = item.p.dish.dishName,
+                            quatity = item.p.billDetail.quatity,
+                            price = item.p.dish.price
+                        }).ToList();
+
+                    dtv.DataSource = listInfoOrder;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Error", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

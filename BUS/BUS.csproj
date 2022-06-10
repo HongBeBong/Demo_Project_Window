@@ -43,6 +43,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,6 +53,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountBUS.cs" />
+    <Compile Include="BillBUS.cs" />
+    <Compile Include="BillDetailBUS.cs" />
+    <Compile Include="CategoryBUS.cs" />
+    <Compile Include="DishBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TableBUS.cs" />
     <Compile Include="TableTypeBUS.cs" />

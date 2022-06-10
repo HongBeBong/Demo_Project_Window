@@ -28,10 +28,11 @@ namespace DAO
         }
         //--------------------------------------------
 
-        public List<Category> GetListCategory()
+        public List<Category> getListCategory()
         {
             return db.Categories.ToList();
         }
+
         public bool addCategory(Category a)// them Category
         {
             try
@@ -104,12 +105,13 @@ namespace DAO
                 }
                 return -1;
             }
-            catch 
+            catch
             {
                 return -1;
             }
 
         }
+
         public Category FindCategory(string CategoryId)
         {
             try

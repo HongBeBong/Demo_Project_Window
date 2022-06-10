@@ -40,8 +40,12 @@ namespace BUS
                 return null;
             }
         }
+
+        public List<Table> readTable()
+        {
+            List<Table> listTable = new List<Table>();
+            listTable = TableDAO.Instance.readTable();
+            return listTable;
+        }
     }
-
-
-   
 }

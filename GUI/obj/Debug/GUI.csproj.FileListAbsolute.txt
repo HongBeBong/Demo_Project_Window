@@ -64,7 +64,6 @@ D:\laptrinhwindows\git\Demo_Project_Window\GUI\obj\Debug\GUI.pdb
 E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\GUI.exe.config
 E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\GUI.exe
 E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\GUI.pdb
-E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\Bunifu_UI_v1.52.dll
 E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\BUS.dll
 E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\EntityFramework.dll
 E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\bin\Debug\EntityFramework.SqlServer.dll
