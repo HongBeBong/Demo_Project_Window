@@ -32,13 +32,19 @@ namespace BUS
 
                 Table table = tables.First(t => t.tableTypeId == tableTypeId && t.status == "OFF");
 
-                Console.WriteLine("Table ID is {0}",table.tableId);
                 return table.tableId;
             }
             catch
             {
                 return null;
             }
+        }
+
+        public bool updateTableStatus(string tableId, string status)
+        {
+            
+             return TableDAO.Instance.updateTable(tableId, status);
+                
         }
     }
 

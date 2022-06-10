@@ -62,7 +62,7 @@ namespace DAO
         }
 
         //Hàm Update 1 đối tượng Table
-        public bool updateTable(string tableID, string tableTypeId, string status)
+        public bool updateTable(string tableID, string status)
         {
             try
             {
@@ -74,7 +74,6 @@ namespace DAO
                     if (table != null)
                     {
                         table.tableId = tableID;
-                        table.tableTypeId = tableTypeId;
                         table.status = status;
                         con.SaveChanges();
                         return true;

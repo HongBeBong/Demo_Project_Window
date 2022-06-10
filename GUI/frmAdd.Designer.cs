@@ -34,6 +34,7 @@ namespace GUI
             this.pictureBox_Exit = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel_AddEmployee = new System.Windows.Forms.Panel();
+            this.dateTimePicker_BirthDate = new System.Windows.Forms.DateTimePicker();
             this.button_AddEmployee = new Bunifu.Framework.UI.BunifuThinButton2();
             this.textBox_Salary = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -59,7 +60,6 @@ namespace GUI
             this.label8 = new System.Windows.Forms.Label();
             this.comboBox_CategoryFood = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker_BirthDate = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Exit)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.panel_AddEmployee.SuspendLayout();
@@ -77,11 +77,11 @@ namespace GUI
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Font = new System.Drawing.Font("VNI-Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(305, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(470, 40);
+            this.label2.Size = new System.Drawing.Size(281, 25);
             this.label2.TabIndex = 37;
             this.label2.Text = "Retaurant Management App";
             // 
@@ -99,7 +99,7 @@ namespace GUI
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.panel_AddEmployee);
-            this.groupBox1.Font = new System.Drawing.Font("VNI-Algerian", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(12, 69);
             this.groupBox1.Name = "groupBox1";
@@ -124,6 +124,14 @@ namespace GUI
             this.panel_AddEmployee.Name = "panel_AddEmployee";
             this.panel_AddEmployee.Size = new System.Drawing.Size(515, 599);
             this.panel_AddEmployee.TabIndex = 40;
+            // 
+            // dateTimePicker_BirthDate
+            // 
+            this.dateTimePicker_BirthDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker_BirthDate.Location = new System.Drawing.Point(226, 148);
+            this.dateTimePicker_BirthDate.Name = "dateTimePicker_BirthDate";
+            this.dateTimePicker_BirthDate.Size = new System.Drawing.Size(268, 22);
+            this.dateTimePicker_BirthDate.TabIndex = 72;
             // 
             // button_AddEmployee
             // 
@@ -154,7 +162,7 @@ namespace GUI
             // 
             this.textBox_Salary.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox_Salary.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Salary.Location = new System.Drawing.Point(227, 364);
+            this.textBox_Salary.Location = new System.Drawing.Point(229, 384);
             this.textBox_Salary.Name = "textBox_Salary";
             this.textBox_Salary.Size = new System.Drawing.Size(268, 27);
             this.textBox_Salary.TabIndex = 70;
@@ -162,11 +170,11 @@ namespace GUI
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("VNI-Bodon", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(32, 359);
+            this.label4.Location = new System.Drawing.Point(33, 379);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 32);
+            this.label4.Size = new System.Drawing.Size(93, 29);
             this.label4.TabIndex = 69;
             this.label4.Text = "Salary:";
             // 
@@ -176,7 +184,7 @@ namespace GUI
             this.panel1.Controls.Add(this.radioButton_Admin);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Location = new System.Drawing.Point(34, 263);
+            this.panel1.Location = new System.Drawing.Point(33, 296);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(461, 80);
             this.panel1.TabIndex = 68;
@@ -184,11 +192,11 @@ namespace GUI
             // radioButton_Employee
             // 
             this.radioButton_Employee.AutoSize = true;
-            this.radioButton_Employee.Font = new System.Drawing.Font("VNI-Bodon", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton_Employee.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton_Employee.ForeColor = System.Drawing.Color.White;
             this.radioButton_Employee.Location = new System.Drawing.Point(304, 29);
             this.radioButton_Employee.Name = "radioButton_Employee";
-            this.radioButton_Employee.Size = new System.Drawing.Size(142, 36);
+            this.radioButton_Employee.Size = new System.Drawing.Size(151, 33);
             this.radioButton_Employee.TabIndex = 71;
             this.radioButton_Employee.TabStop = true;
             this.radioButton_Employee.Text = "Employee";
@@ -197,11 +205,11 @@ namespace GUI
             // radioButton_Admin
             // 
             this.radioButton_Admin.AutoSize = true;
-            this.radioButton_Admin.Font = new System.Drawing.Font("VNI-Bodon", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton_Admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton_Admin.ForeColor = System.Drawing.Color.White;
             this.radioButton_Admin.Location = new System.Drawing.Point(67, 31);
             this.radioButton_Admin.Name = "radioButton_Admin";
-            this.radioButton_Admin.Size = new System.Drawing.Size(107, 36);
+            this.radioButton_Admin.Size = new System.Drawing.Size(107, 33);
             this.radioButton_Admin.TabIndex = 70;
             this.radioButton_Admin.TabStop = true;
             this.radioButton_Admin.Text = "Admin";
@@ -233,7 +241,7 @@ namespace GUI
             this.panel_Genner.Controls.Add(this.radioButton_Male);
             this.panel_Genner.Controls.Add(this.pictureBox2);
             this.panel_Genner.Controls.Add(this.pictureBox3);
-            this.panel_Genner.Location = new System.Drawing.Point(34, 177);
+            this.panel_Genner.Location = new System.Drawing.Point(33, 199);
             this.panel_Genner.Name = "panel_Genner";
             this.panel_Genner.Size = new System.Drawing.Size(461, 80);
             this.panel_Genner.TabIndex = 67;
@@ -241,11 +249,11 @@ namespace GUI
             // radioButton_Female
             // 
             this.radioButton_Female.AutoSize = true;
-            this.radioButton_Female.Font = new System.Drawing.Font("VNI-Bodon", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton_Female.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton_Female.ForeColor = System.Drawing.Color.White;
             this.radioButton_Female.Location = new System.Drawing.Point(304, 29);
             this.radioButton_Female.Name = "radioButton_Female";
-            this.radioButton_Female.Size = new System.Drawing.Size(114, 36);
+            this.radioButton_Female.Size = new System.Drawing.Size(122, 33);
             this.radioButton_Female.TabIndex = 71;
             this.radioButton_Female.TabStop = true;
             this.radioButton_Female.Text = "Female";
@@ -254,11 +262,11 @@ namespace GUI
             // radioButton_Male
             // 
             this.radioButton_Male.AutoSize = true;
-            this.radioButton_Male.Font = new System.Drawing.Font("VNI-Bodon", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton_Male.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton_Male.ForeColor = System.Drawing.Color.White;
             this.radioButton_Male.Location = new System.Drawing.Point(67, 31);
             this.radioButton_Male.Name = "radioButton_Male";
-            this.radioButton_Male.Size = new System.Drawing.Size(87, 36);
+            this.radioButton_Male.Size = new System.Drawing.Size(91, 33);
             this.radioButton_Male.TabIndex = 70;
             this.radioButton_Male.TabStop = true;
             this.radioButton_Male.Text = "Male";
@@ -287,11 +295,11 @@ namespace GUI
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("VNI-Bodon", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(28, 129);
+            this.label6.Location = new System.Drawing.Point(28, 143);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(139, 32);
+            this.label6.Size = new System.Drawing.Size(135, 29);
             this.label6.TabIndex = 65;
             this.label6.Text = "Birth Date:";
             // 
@@ -303,22 +311,23 @@ namespace GUI
             this.textBox_EmployeeName.Name = "textBox_EmployeeName";
             this.textBox_EmployeeName.Size = new System.Drawing.Size(268, 27);
             this.textBox_EmployeeName.TabIndex = 56;
+            this.textBox_EmployeeName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_EmployeeName_KeyPress);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("VNI-Bodon", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(28, 71);
+            this.label3.Location = new System.Drawing.Point(10, 76);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(198, 32);
+            this.label3.Size = new System.Drawing.Size(213, 29);
             this.label3.TabIndex = 55;
             this.label3.Text = "Employee Name:";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.panel_AddFood);
-            this.groupBox2.Font = new System.Drawing.Font("VNI-Algerian", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(564, 69);
             this.groupBox2.Name = "groupBox2";
@@ -378,11 +387,11 @@ namespace GUI
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("VNI-Bodon", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(19, 210);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(81, 32);
+            this.label9.Size = new System.Drawing.Size(81, 29);
             this.label9.TabIndex = 59;
             this.label9.Text = "Price:";
             // 
@@ -398,11 +407,11 @@ namespace GUI
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("VNI-Bodon", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(19, 156);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(147, 32);
+            this.label8.Size = new System.Drawing.Size(157, 29);
             this.label8.TabIndex = 57;
             this.label8.Text = "Food Name:";
             // 
@@ -418,21 +427,13 @@ namespace GUI
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("VNI-Bodon", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(19, 98);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(119, 32);
+            this.label7.Size = new System.Drawing.Size(125, 29);
             this.label7.TabIndex = 51;
             this.label7.Text = "Category:";
-            // 
-            // dateTimePicker_BirthDate
-            // 
-            this.dateTimePicker_BirthDate.Font = new System.Drawing.Font(".VnArial Narrow", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker_BirthDate.Location = new System.Drawing.Point(227, 138);
-            this.dateTimePicker_BirthDate.Name = "dateTimePicker_BirthDate";
-            this.dateTimePicker_BirthDate.Size = new System.Drawing.Size(268, 22);
-            this.dateTimePicker_BirthDate.TabIndex = 72;
             // 
             // frmAdd
             // 

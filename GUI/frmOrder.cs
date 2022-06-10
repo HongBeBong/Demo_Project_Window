@@ -21,6 +21,7 @@ namespace GUI
         public void LoadTable()
         {
             flowLayoutPanel_Table.Controls.Clear();
+
             for (int i = 0; i < 16; i++)
             {
                 Button btn = new Button() { Width = 110, Height = 110 };

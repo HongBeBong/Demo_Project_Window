@@ -24,13 +24,13 @@ namespace DAO
         }
 
         //Hàm thêm 1 đối tượng Reservation 
-        public bool createReservation(int customerID, string tableId, DateTime confrimTime)
+        public bool createReservation(int customerID, string tableId, DateTime confirmTime)
         {
             try
             {
                 using (var con = new Context())
                 {
-                    Reservation reservation = new Reservation() { customerId = customerID, tableId = tableId, confirmTime = confrimTime };
+                    Reservation reservation = new Reservation() { customerId = customerID, tableId = tableId, confirmTime = confirmTime };
                     con.Reservations.Add(reservation);
                     con.SaveChanges();
                     return true;// Nếu thêm thành công trả về true
@@ -62,7 +62,7 @@ namespace DAO
         }
 
         //Hàm Update 1 đối tượng Reservation
-        public bool updateReservation(int customerID, string tableId, DateTime confrimTime)
+        public bool updateReservation(int customerID, string tableId, DateTime confirmTime)
         {
             try
             {
@@ -75,7 +75,7 @@ namespace DAO
                     {
                         reservation.customerId = customerID;
                         reservation.tableId = tableId;
-                        reservation.confirmTime = confrimTime;
+                        reservation.confirmTime = confirmTime;
                         con.SaveChanges();
                         return true;
                     }

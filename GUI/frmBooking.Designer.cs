@@ -187,6 +187,7 @@ namespace GUI
             this.button_Book.Size = new System.Drawing.Size(199, 48);
             this.button_Book.TabIndex = 65;
             this.button_Book.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button_Book.Click += new System.EventHandler(this.button_Book_Click);
             // 
             // dateTimePicker_CheckIn
             // 
@@ -237,6 +238,7 @@ namespace GUI
             this.textBox_PhoneNumber.Name = "textBox_PhoneNumber";
             this.textBox_PhoneNumber.Size = new System.Drawing.Size(268, 27);
             this.textBox_PhoneNumber.TabIndex = 56;
+            this.textBox_PhoneNumber.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_PhoneNumber_KeyPress);
             // 
             // label3
             // 
@@ -257,6 +259,7 @@ namespace GUI
             this.textBox_CustomerName.Name = "textBox_CustomerName";
             this.textBox_CustomerName.Size = new System.Drawing.Size(268, 27);
             this.textBox_CustomerName.TabIndex = 54;
+            this.textBox_CustomerName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_CustomerName_KeyPress);
             // 
             // label1
             // 

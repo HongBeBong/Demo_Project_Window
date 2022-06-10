@@ -98,6 +98,39 @@ namespace DAO
             }
         }
 
+
+        public string getLastEmployeeId()
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    var employee = context.Employees.OrderByDescending(e => e.employeeId).FirstOrDefault();
+                    return employee.employeeId;
+                }
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public int countEmployee()
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    int value = context.Employees.Count();
+                    return value;
+                }
+            }
+            catch
+            {
+                return -1;
+            }
+        }
+
     }
 
 

@@ -21,5 +21,10 @@ namespace GUI
         {
             this.Close();
         }
+
+        private void textBox_EmployeeName_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13) dateTimePicker_BirthDate.Focus();
+        }
     }
 }

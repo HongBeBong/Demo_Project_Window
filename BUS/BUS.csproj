@@ -52,7 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountBUS.cs" />
+    <Compile Include="BillBUS.cs" />
+    <Compile Include="CustomerBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservationBUS.cs" />
     <Compile Include="TableBUS.cs" />
     <Compile Include="TableTypeBUS.cs" />
   </ItemGroup>

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using GUI.Models;
 using GUI.Maps;
+using System.Diagnostics;
 
 namespace GUI
 {
@@ -13,7 +14,7 @@ namespace GUI
     {
         public Context() : base("name=RestaurantDB")
         {
-            
+            Database.Log = sql => Debug.Write(sql);
         }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Account> Accounts { get; set; }
