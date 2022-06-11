@@ -26,6 +26,7 @@ namespace GUI
         {
             flowLayoutPanel_Table.Controls.Clear();
             List<Table> listTable = new List<Table>();
+            //TableBUS.Instance.updateTableWithCustomer();
             listTable = TableBUS.Instance.readTable();
 
             if (listTable != null)
@@ -141,12 +142,23 @@ namespace GUI
             //Lấy số lượng của món 
             quantity = Convert.ToInt32(numericUpDown_Quantity.Value);
             //Lấy billId thông qua tableId
-            billId = BillBUS.Instance.getListBillByTableId(tableID);
+            billId = BillBUS.Instance.getBillIDByTableId(tableID);
 
             //Cập nhật lại danh sách các món ăn đã được chọn
             BillDetailBUS.Instance.updateBillDetail(billId, dishId, quantity);
             loadTableUpFlowLayoutPanel();
             loadInfoOrder(dataGridView_Order, tableID);
+        }
+
+        private void button_SwicthTable_Click(object sender, EventArgs e)
+        {
+            string tableId1 = (dataGridView_Order.Tag as Table).tableId;
+            string tableId2 = comboBox_Table.Text;
+            int billId1 = BillBUS.Instance.getBillIDByTableId(tableId1);
+            int billId2 = BillBUS.Instance.getBillIDByTableId(tableId2);
+
+            TableBUS.Instance.switchTable(tableId1, tableId2, billId1, billId2);
+            loadTableUpFlowLayoutPanel();
         }
         //=======================================================================================================================
     }

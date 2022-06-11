@@ -23,20 +23,20 @@ namespace BUS
             private set => instance = value;
         }
 
-        public int getListBillByTableId(string tableId)
+        public int getBillIDByTableId(string tableId)
         {
             try
             {
                 List<Bill> listBill = new List<Bill>();
-                listBill = BillDAO.Instance.getListBillByTableId(tableId);
+                listBill = BillDAO.Instance.getBillIDByTableId(tableId);
                 if (listBill != null)
                     return listBill[0].billId;
                 else
-                    return -1;
+                    return -1;// Nếu tìm kiếm billdId theo tableId không có trong bảng Bills
             }
             catch
             {
-                return -1;
+                return -1;// Hoặc xảy ra lỗi.
             }
         }
     }

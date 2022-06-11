@@ -89,7 +89,7 @@ namespace DAO
             }
         }
 
-        public List<Bill> getListBillByTableId(string tableId)
+        public List<Bill> getBillIDByTableId(string tableId)
         {
             List<Bill> listBill = new List<Bill>();
             try
@@ -98,7 +98,7 @@ namespace DAO
                 {
                     //Lấy ra danh sách các billd có mã bàn trùng với mã bàn được nhập vào và bàn đó còn trống.
                     //(Tại 1 thời điểm 1 bàn trống chỉ tồn tại duy nhất 1 bill)
-                    listBill = context.Bills.Where(item => item.tableId == tableId && item.totalPrice == 3000000).ToList();
+                    listBill = context.Bills.Where(item => item.tableId == tableId && item.totalPrice == -1).ToList();
                     if (listBill != null)
                         return listBill;
                     else
@@ -108,6 +108,28 @@ namespace DAO
             catch
             {
                 return null;
+            }
+        }
+
+        public bool updateBill(string tableId, int billId)
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    var bill = context.Bills.Where(item => item.billId == billId).FirstOrDefault();
+                    if (bill != null)
+                    {
+                        bill.tableId = tableId;
+                        context.SaveChanges();
+                        return true;
+                    }
+                    return false;
+                }
+            }
+            catch
+            {
+                return false;
             }
         }
     }
