@@ -92,7 +92,7 @@ namespace DAO
             try
             {
                 //Nếu bill đang xét không có trong bảng Bill thì không update
-                if (billId == -1)
+                if (billId == null)
                     return false;
 
                 using (var context = new Context())

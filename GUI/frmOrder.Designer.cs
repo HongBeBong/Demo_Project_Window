@@ -32,6 +32,9 @@ namespace GUI
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOrder));
             this.dataGridView_Order = new System.Windows.Forms.DataGridView();
+            this.FoodName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.comboBox_Category = new System.Windows.Forms.ComboBox();
             this.comboBox_FoodName = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,9 +51,6 @@ namespace GUI
             this.button_SwicthTable = new Bunifu.Framework.UI.BunifuThinButton2();
             this.button_Order = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.FoodName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Order)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Quantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Exit)).BeginInit();
@@ -72,6 +72,27 @@ namespace GUI
             this.dataGridView_Order.RowTemplate.Height = 24;
             this.dataGridView_Order.Size = new System.Drawing.Size(729, 472);
             this.dataGridView_Order.TabIndex = 1;
+            // 
+            // FoodName
+            // 
+            this.FoodName.DataPropertyName = "dishName";
+            this.FoodName.HeaderText = "Food Name";
+            this.FoodName.MinimumWidth = 6;
+            this.FoodName.Name = "FoodName";
+            // 
+            // Quantity
+            // 
+            this.Quantity.DataPropertyName = "quatity";
+            this.Quantity.HeaderText = "Quantity";
+            this.Quantity.MinimumWidth = 6;
+            this.Quantity.Name = "Quantity";
+            // 
+            // Price
+            // 
+            this.Price.DataPropertyName = "price";
+            this.Price.HeaderText = "Price";
+            this.Price.MinimumWidth = 6;
+            this.Price.Name = "Price";
             // 
             // comboBox_Category
             // 
@@ -209,6 +230,7 @@ namespace GUI
             this.button_SwicthTable.Size = new System.Drawing.Size(253, 43);
             this.button_SwicthTable.TabIndex = 23;
             this.button_SwicthTable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button_SwicthTable.Click += new System.EventHandler(this.button_SwicthTable_Click);
             // 
             // button_Order
             // 
@@ -245,27 +267,6 @@ namespace GUI
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
-            // 
-            // FoodName
-            // 
-            this.FoodName.DataPropertyName = "dishName";
-            this.FoodName.HeaderText = "Food Name";
-            this.FoodName.MinimumWidth = 6;
-            this.FoodName.Name = "FoodName";
-            // 
-            // Quantity
-            // 
-            this.Quantity.DataPropertyName = "quatity";
-            this.Quantity.HeaderText = "Quantity";
-            this.Quantity.MinimumWidth = 6;
-            this.Quantity.Name = "Quantity";
-            // 
-            // Price
-            // 
-            this.Price.DataPropertyName = "price";
-            this.Price.HeaderText = "Price";
-            this.Price.MinimumWidth = 6;
-            this.Price.Name = "Price";
             // 
             // frmOrder
             // 

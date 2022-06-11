@@ -121,5 +121,63 @@ namespace DAO
                 return false;
             }
         }
+
+        public bool switchTable(string tableId1, string tableId2, int billId1, int billId2)
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    if (billId1 != -1 && billId2 != -1)
+                    {
+                        BillDAO.Instance.updateBill(tableId1, billId2);
+                        BillDAO.Instance.updateBill(tableId2, billId1);
+                        return true;
+                    }
+                    else if (billId1 != -1 && billId2 == -1)
+                    {
+                        BillDAO.Instance.updateBill(tableId2, billId1);
+                        updateSatusAndColor(tableId1, "ON");
+                        updateSatusAndColor(tableId2, "OFF");
+                        return true;
+                    }
+                    else if (billId1 == -1 && billId2 != -1)
+                    {
+                        BillDAO.Instance.updateBill(tableId1, billId2);
+                        updateSatusAndColor(tableId1, "OFF");
+                        updateSatusAndColor(tableId2, "ON");
+                        return true;
+                    }
+                    else if (billId1 == -1 && billId2 == -1)
+                    {
+                        return true;
+                    }
+                    else
+                        return false;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public bool updateSatusAndColor(string tableId, string status)
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    var table = context.Tables.Where(item => item.tableId == tableId).FirstOrDefault();
+                    table.status = status;
+                    context.SaveChanges();
+                    return true;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }

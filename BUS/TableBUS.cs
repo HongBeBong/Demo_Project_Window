@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using DAO;
 using GUI.Models;
 
@@ -52,6 +53,20 @@ namespace BUS
             
              return TableDAO.Instance.updateTable(tableId, status);
                 
+        }
+
+        public void switchTable(string tableId1, string tableId2, int billId1, int billId2)
+        {
+            if (TableDAO.Instance.switchTable(tableId1, tableId2, billId1, billId2))
+            {
+                MessageBox.Show("Switch table " + tableId1 + " to table " + tableId2 + " success", "Notification",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Switch table " + tableId1 + " to table " + tableId2 + " fail", "Notification", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

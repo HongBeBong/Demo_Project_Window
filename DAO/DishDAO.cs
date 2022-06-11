@@ -182,7 +182,8 @@ namespace DAO
                         )
                         .Where(item => item.bill.billId == item.p.billDetail.billId 
                         && item.p.billDetail.dishId == item.p.dish.dishId 
-                        && item.bill.tableId == tableId)
+                        && item.bill.tableId == tableId
+                        && item.bill.totalPrice == -1)
                         .Select(item => new
                         {
                             dishName = item.p.dish.dishName,
