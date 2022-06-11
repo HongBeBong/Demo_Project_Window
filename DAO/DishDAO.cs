@@ -198,5 +198,65 @@ namespace DAO
                 MessageBox.Show("Error", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+
+        // những hàm này xử lý form add
+        public string getLastDishId()
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    var dishes = context.Dishes.ToList();
+                    Dish dish = dishes.LastOrDefault();
+                    return dish.dishId;
+                }
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public int countDishes()
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    int value = context.Dishes.Count();
+                    return value;
+                }
+            }
+            catch
+            {
+                return -1;
+            }
+        }
+
+        public bool createDish(string id, string name, int price, string categoryId)
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    Dish dish = new Dish
+                    {
+                        dishId = id,
+                        dishName = name,
+                        price = price,
+                        categoryId = categoryId
+                    };
+
+                    context.Dishes.Add(dish);
+                    context.SaveChanges();
+                }
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }

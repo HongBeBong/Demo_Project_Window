@@ -13,7 +13,7 @@ namespace GUI.Models
         public string role { get; set; }
         public string fullName { get; set; }
         public string gender { get; set; }
-        public string birthday { get; set; }
+        public DateTime birthday { get; set; }
         public int salary { get; set; }
         public virtual ICollection<Bill> Bills { get; set; }
         public virtual Account Account { get; set; }

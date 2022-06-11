@@ -74,11 +74,18 @@ namespace BUS
                 if (tmp > 999)
                     return null;
                 else
-                    lastestId = "NV00" + tmp.ToString();
+                {
+                    lastestId = "NV" + tmp.ToString();
                     return lastestId;
+                }
                 
-            }
-                  
+            }        
         }
+
+        public bool addNewEmployee (string id, string role, string name, string gender, DateTime bday, int salary)
+        {
+            return EmployeeDAO.Instance.createAnEmployee(id, role, name, gender, bday, salary);
+        }
+
     }
 }

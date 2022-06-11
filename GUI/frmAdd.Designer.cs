@@ -157,6 +157,7 @@ namespace GUI
             this.button_AddEmployee.Size = new System.Drawing.Size(140, 61);
             this.button_AddEmployee.TabIndex = 71;
             this.button_AddEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button_AddEmployee.Click += new System.EventHandler(this.button_AddEmployee_Click);
             // 
             // textBox_Salary
             // 
@@ -374,6 +375,7 @@ namespace GUI
             this.button_AddFood.Size = new System.Drawing.Size(140, 61);
             this.button_AddFood.TabIndex = 72;
             this.button_AddFood.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button_AddFood.Click += new System.EventHandler(this.button_AddFood_Click);
             // 
             // textBox_Price
             // 
@@ -403,6 +405,7 @@ namespace GUI
             this.textBox_FoodName.Name = "textBox_FoodName";
             this.textBox_FoodName.Size = new System.Drawing.Size(268, 27);
             this.textBox_FoodName.TabIndex = 58;
+            this.textBox_FoodName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_FoodName_KeyPress);
             // 
             // label8
             // 

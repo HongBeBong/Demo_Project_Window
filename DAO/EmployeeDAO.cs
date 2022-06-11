@@ -45,7 +45,7 @@ namespace DAO
         }
         
 
-        public bool createAnEmployee(string employeeId, string role, string fullname, string gender, string birthday, int salary)
+        public bool createAnEmployee(string employeeId, string role, string fullname, string gender, DateTime birthday, int salary)
         {
             try
             {
@@ -105,8 +105,9 @@ namespace DAO
             {
                 using (var context = new Context())
                 {
-                    var employee = context.Employees.OrderByDescending(e => e.employeeId).FirstOrDefault();
-                    return employee.employeeId;
+                    var employees = context.Employees.ToList();
+                    Employee emp1 = employees.LastOrDefault();
+                    return emp1.employeeId;
                 }
             }
             catch

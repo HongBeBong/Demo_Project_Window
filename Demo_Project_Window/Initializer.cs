@@ -18,7 +18,7 @@ namespace GUI
                 employeeId = "EMP1",
                 fullName = "Bùi Thanh Duy",
                 role = "Nhân Viên",
-                birthday = "30-4-2002",
+                birthday = DateTime.Now,
                 gender = "Nam",
                 salary = 30000000
             };

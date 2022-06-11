@@ -21,7 +21,7 @@ namespace GUI.Maps
             Property(e => e.fullName).IsRequired().HasMaxLength(100);
             Property(e => e.role).IsOptional();
             Property(e => e.gender).IsRequired().HasMaxLength(5);
-            Property(e => e.birthday).HasMaxLength(15).IsRequired().IsUnicode(false);
+            Property(e => e.birthday).IsRequired();
             Property(e => e.salary).IsRequired();
 
             HasMany(e => e.Bills).WithOptional().HasForeignKey(e => e.employeeId);
