@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GUI.Models;
+using BUS;
 
 namespace GUI
 {
@@ -21,23 +23,34 @@ namespace GUI
         public void LoadTable()
         {
             flowLayoutPanel_Table.Controls.Clear();
-            for (int i = 0; i < 16; i++)
+            List<Table> listTable = new List<Table>();
+            listTable = TableBUS.Instance.readTable();
+
+            if (listTable != null)
             {
-                Button btn = new Button() { Width = 110, Height = 110 };
-                btn.Font = new Font("Times New Roman", (float)8.2);
-                // Tạo Event xử lí Click
-                // Tạo thẻ Tag để lưu trữ và xử lí thông tin
-                if (i % 2 == 0)
+                foreach (Table table in listTable)
                 {
-                    btn.Text = "Bàn " + (i + 1).ToString() + "\n" + "Trống";
-                    btn.BackColor = Color.BlanchedAlmond;
+                    Button btn = new Button() { Width = 110, Height = 110 };
+                    btn.Text = table.tableId + Environment.NewLine + "\n" + table.status;
+                    btn.Font = new Font("Arial", (float)10.5);
+                   // btn.Click += btn_Click;
+                    btn.Tag = table;
+
+                    if (table.status.Equals("ON"))
+                    {
+                        btn.BackColor = Color.LightGoldenrodYellow;
+                    }
+                    else
+                    {
+                        btn.BackColor = Color.Gray;
+                        btn.ForeColor = Color.White;
+                    }
+                    flowLayoutPanel_Table.Controls.Add(btn);
                 }
-                else
-                {
-                    btn.Text = "Bàn " + (i + 1).ToString() + "\n" + "Có người";
-                    btn.BackColor = Color.Gray;
-                }
-                flowLayoutPanel_Table.Controls.Add(btn);
+            }
+            else
+            {
+                MessageBox.Show("List table is empty", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 //=======================================================================================================================
