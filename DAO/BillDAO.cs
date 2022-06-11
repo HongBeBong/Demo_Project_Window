@@ -23,8 +23,8 @@ namespace DAO
             private set => instance = value;
         }
 
-        
-        public bool createBill(int customerId, int billId, string employeeId, DateTime creatAt, int totalprice)
+        // tạo bill
+        public bool createBill(int customerId, string tableId)
         {
             try
             {
@@ -33,10 +33,9 @@ namespace DAO
                     Bill bill = new Bill
                     {
                         customerId = customerId,
-                        billId = billId,
-                        employeeId = employeeId,
-                        createAt = creatAt,
-                        totalPrice = totalprice
+                        tableId = tableId,
+                        createAt = DateTime.Now,
+                        totalPrice = -1
                     };
 
                     context.Bills.Add(bill);

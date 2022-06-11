@@ -60,11 +60,29 @@ namespace DAO
                     context.Customers.Add(customer);
                     context.SaveChanges();
                 }
+                Console.WriteLine("Tao khach hang thanh cong");
                 return true;
             }
             catch
             {
+                Console.WriteLine("Tao khach hang thanh cong");
                 return false;
+            }
+        }
+
+        public int getLatestCustomer()
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    var customer = context.Customers.OrderByDescending(c => c.customerId).FirstOrDefault();
+                    return customer.customerId;
+                }
+            }
+            catch
+            {
+                return -1;
             }
         }
 

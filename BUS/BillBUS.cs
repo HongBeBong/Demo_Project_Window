@@ -39,5 +39,12 @@ namespace BUS
                 return -1;// Hoặc xảy ra lỗi.
             }
         }
+        
+        public bool addBill (int customerId, string tableId)
+        {
+            return BillDAO.Instance.createBill(customerId, tableId);
+        }
+
+
     }
 }

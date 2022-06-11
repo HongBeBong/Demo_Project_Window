@@ -92,3 +92,34 @@ E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Wi
 E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.csproj.CopyComplete
 E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.exe
 E:\LẬP TRÌNH\BÀI TẬP\Lập trình window\PROJECT_WIN_FINAL\Demo_Project_Window\GUI\obj\Debug\GUI.pdb
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.exe
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.pdb
+D:\tmp\Project_Final_Window\GUI\bin\Debug\GUI.exe.config
+D:\tmp\Project_Final_Window\GUI\bin\Debug\GUI.exe
+D:\tmp\Project_Final_Window\GUI\bin\Debug\GUI.pdb
+D:\tmp\Project_Final_Window\GUI\bin\Debug\BUS.dll
+D:\tmp\Project_Final_Window\GUI\bin\Debug\Demo_Project_Window.exe
+D:\tmp\Project_Final_Window\GUI\bin\Debug\EntityFramework.dll
+D:\tmp\Project_Final_Window\GUI\bin\Debug\EntityFramework.SqlServer.dll
+D:\tmp\Project_Final_Window\GUI\bin\Debug\DAO.dll
+D:\tmp\Project_Final_Window\GUI\bin\Debug\BUS.pdb
+D:\tmp\Project_Final_Window\GUI\bin\Debug\BUS.dll.config
+D:\tmp\Project_Final_Window\GUI\bin\Debug\Demo_Project_Window.pdb
+D:\tmp\Project_Final_Window\GUI\bin\Debug\Demo_Project_Window.exe.config
+D:\tmp\Project_Final_Window\GUI\bin\Debug\EntityFramework.xml
+D:\tmp\Project_Final_Window\GUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\tmp\Project_Final_Window\GUI\bin\Debug\DAO.pdb
+D:\tmp\Project_Final_Window\GUI\bin\Debug\DAO.dll.config
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.frmAdd.resources
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.frmBill.resources
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.frmBooking.resources
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.frmFeature.resources
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.frmLoad.resources
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.frmLogin.resources
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.frmOrder.resources
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.frmStatistical.resources
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\tmp\Project_Final_Window\GUI\obj\Debug\GUI.csproj.CopyComplete

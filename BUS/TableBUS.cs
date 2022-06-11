@@ -33,7 +33,6 @@ namespace BUS
 
                 Table table = tables.First(t => t.tableTypeId == tableTypeId && t.status == "OFF");
 
-                Console.WriteLine("Table ID is {0}",table.tableId);
                 return table.tableId;
             }
             catch
@@ -47,6 +46,13 @@ namespace BUS
             List<Table> listTable = new List<Table>();
             listTable = TableDAO.Instance.readTable();
             return listTable;
+        }
+
+        public bool updateTableStatus(string tableId, string status)
+        {
+            
+             return TableDAO.Instance.updateTable(tableId, status);
+                
         }
 
         public void switchTable(string tableId1, string tableId2, int billId1, int billId2)

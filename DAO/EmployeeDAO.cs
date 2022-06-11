@@ -45,7 +45,7 @@ namespace DAO
         }
         
 
-        public bool createAnEmployee(string employeeId, string role, string fullname, string gender, string birthday, int salary)
+        public bool createAnEmployee(string employeeId, string role, string fullname, string gender, DateTime birthday, int salary)
         {
             try
             {
@@ -95,6 +95,40 @@ namespace DAO
             catch
             {
                 return false; //xóa thất bại
+            }
+        }
+
+
+        public string getLastEmployeeId()
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    var employees = context.Employees.ToList();
+                    Employee emp1 = employees.LastOrDefault();
+                    return emp1.employeeId;
+                }
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
+        public int countEmployee()
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    int value = context.Employees.Count();
+                    return value;
+                }
+            }
+            catch
+            {
+                return -1;
             }
         }
 
