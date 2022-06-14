@@ -34,6 +34,7 @@ namespace BUS
                 //Table table = tables.First(t => t.tableTypeId == tableTypeId && t.status == "OFF");
                 Table table = tables.First(t => t.tableTypeId == tableTypeId && t.status == "ON");
 
+                Console.WriteLine("Table ID is {0}",table.tableId);
                 return table.tableId;
             }
             catch
@@ -53,9 +54,9 @@ namespace BUS
         {
             
              return TableDAO.Instance.updateTable(tableId, status);
-                
-        }
 
+        }
+   
         public void switchTable(string tableId1, string tableId2, int billId1, int billId2)
         {
             if (TableDAO.Instance.switchTable(tableId1, tableId2, billId1, billId2))

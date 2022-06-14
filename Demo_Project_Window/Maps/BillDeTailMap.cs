@@ -17,6 +17,7 @@ namespace GUI.Maps
 
             //Property(x => x.billId).HasMaxLength(5).IsRequired().IsUnicode(false);
             Property(x => x.billId).IsRequired();
+
             Property(x => x.dishId).HasMaxLength(5).IsRequired().IsUnicode(false);
             Property(x => x.quatity).IsRequired();
 

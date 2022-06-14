@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using GUI;
 using GUI.Maps;
 using GUI.Models;
+using System.Data.Entity;
 
 namespace DAO
 {
@@ -49,6 +50,7 @@ namespace DAO
         }
         public bool addAccount(Account a)// them account
         {
+            // lấy tất cả tài khoản trong list Account
             try
             {
 
@@ -66,6 +68,7 @@ namespace DAO
             {
                 return false;
             }
+            
         }
         public bool DeleteAccount(string accountEmployeeId)// xóa 1 account
         {
@@ -105,30 +108,32 @@ namespace DAO
                 return false;
             }
             catch (Exception)
-            {
+                    {
                 return false;
-            }
-        }
+                    }
+                    else 
+                        return 0; // không có tài khoản cần tìm
+                }
         public bool CheckAdmin(string accountType)// kiem tra admin
         {
             var x = db.Accounts.Where(n => n.accountType == accountType && n.accountType == "Admin").ToList();
             return (x.Any()) ? true : false;
-        }
+            }
         public int GetAccountEmployeeID(string accountEmployeeId, ref string error)
         {
             try
             {
                 if (accountEmployeeId != null)
-                {
+            {
                     var x = db.Accounts.Where(n => n.accountEmployeeId == accountEmployeeId).FirstOrDefault();
                     error = "Get Employee Success";
                     return 1;
-                }
-                return -1;
             }
+                return -1;
+        } 
             catch
             {
-                
+
                 return -1;
             }
 

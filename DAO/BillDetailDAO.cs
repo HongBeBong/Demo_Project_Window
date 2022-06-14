@@ -28,6 +28,7 @@ namespace DAO
         {
             try
             {
+                
 
                 using (var context = new Context())
                 {
@@ -98,7 +99,7 @@ namespace DAO
                 using (var context = new Context())
                 {
                     var checkBillDetail = context.BillDetails.Where(item => item.billId == billId && item.dishId == dishId).FirstOrDefault();
-                    
+
                     //Nếu món có tồn tại trong danh sách các món đã order 
                     if (checkBillDetail != null)
                     {

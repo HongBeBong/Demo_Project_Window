@@ -74,6 +74,7 @@ namespace DAO
                     if (table != null)
                     {
                         table.tableId = tableID;
+                        table.tableTypeId = tableTypeId;
                         table.status = status;
                         con.SaveChanges();
                         return true;

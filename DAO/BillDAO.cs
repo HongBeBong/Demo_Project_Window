@@ -109,8 +109,8 @@ namespace DAO
             catch
             {
                 return null;
-            }
-        }
+    }
+}
 
         public bool updateBill(string tableId, int billId)
         {
