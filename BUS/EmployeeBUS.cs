@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAO;
+using GUI.Models;
 
 namespace BUS
 {
@@ -85,6 +86,11 @@ namespace BUS
         public bool addNewEmployee (string id, string role, string name, string gender, DateTime bday, int salary)
         {
             return EmployeeDAO.Instance.createAnEmployee(id, role, name, gender, bday, salary);
+        }
+
+        public List<Employee> getListEmployees()
+        {
+            return EmployeeDAO.Instance.getAllEmmployees();
         }
 
     }

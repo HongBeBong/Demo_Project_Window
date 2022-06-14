@@ -35,13 +35,12 @@ namespace GUI
             this.FoodName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TotalMoney = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtCustomerName = new System.Windows.Forms.TextBox();
             this.txtBill_Id = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtStaffName = new System.Windows.Forms.TextBox();
             this.lblCustomerName = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -56,6 +55,7 @@ namespace GUI
             this.txtAddress = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.txtTotalMoney = new System.Windows.Forms.TextBox();
+            this.cbStaffName = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_CheckBill)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Exit)).BeginInit();
@@ -80,7 +80,7 @@ namespace GUI
             this.FoodName,
             this.Quantity,
             this.Price,
-            this.TotalMoney});
+            this.Total});
             this.dataGridView_CheckBill.Location = new System.Drawing.Point(357, 218);
             this.dataGridView_CheckBill.Name = "dataGridView_CheckBill";
             this.dataGridView_CheckBill.RowHeadersWidth = 51;
@@ -90,27 +90,34 @@ namespace GUI
             // 
             // FoodName
             // 
+            this.FoodName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.FoodName.DataPropertyName = "dishName";
+            this.FoodName.Frozen = true;
             this.FoodName.HeaderText = "Food Name";
             this.FoodName.MinimumWidth = 6;
             this.FoodName.Name = "FoodName";
+            this.FoodName.Width = 250;
             // 
             // Quantity
             // 
+            this.Quantity.DataPropertyName = "quantity";
             this.Quantity.HeaderText = "Quantity";
             this.Quantity.MinimumWidth = 6;
             this.Quantity.Name = "Quantity";
             // 
             // Price
             // 
+            this.Price.DataPropertyName = "price";
             this.Price.HeaderText = "Price";
             this.Price.MinimumWidth = 6;
             this.Price.Name = "Price";
             // 
-            // TotalMoney
+            // Total
             // 
-            this.TotalMoney.HeaderText = "Total Money";
-            this.TotalMoney.MinimumWidth = 6;
-            this.TotalMoney.Name = "TotalMoney";
+            this.Total.DataPropertyName = "total";
+            this.Total.HeaderText = "Total";
+            this.Total.MinimumWidth = 6;
+            this.Total.Name = "Total";
             // 
             // label1
             // 
@@ -127,7 +134,7 @@ namespace GUI
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(750, 134);
+            this.label2.Location = new System.Drawing.Point(653, 124);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(121, 20);
             this.label2.TabIndex = 24;
@@ -136,19 +143,19 @@ namespace GUI
             // txtCustomerName
             // 
             this.txtCustomerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCustomerName.Location = new System.Drawing.Point(517, 132);
+            this.txtCustomerName.Location = new System.Drawing.Point(817, 78);
             this.txtCustomerName.Name = "txtCustomerName";
             this.txtCustomerName.ReadOnly = true;
-            this.txtCustomerName.Size = new System.Drawing.Size(192, 27);
+            this.txtCustomerName.Size = new System.Drawing.Size(255, 27);
             this.txtCustomerName.TabIndex = 25;
             // 
             // txtBill_Id
             // 
             this.txtBill_Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBill_Id.Location = new System.Drawing.Point(515, 84);
+            this.txtBill_Id.Location = new System.Drawing.Point(475, 74);
             this.txtBill_Id.Name = "txtBill_Id";
             this.txtBill_Id.ReadOnly = true;
-            this.txtBill_Id.Size = new System.Drawing.Size(192, 27);
+            this.txtBill_Id.Size = new System.Drawing.Size(73, 27);
             this.txtBill_Id.TabIndex = 27;
             // 
             // label3
@@ -161,19 +168,11 @@ namespace GUI
             this.label3.TabIndex = 26;
             this.label3.Text = "Bill ID:";
             // 
-            // txtStaffName
-            // 
-            this.txtStaffName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStaffName.Location = new System.Drawing.Point(886, 132);
-            this.txtStaffName.Name = "txtStaffName";
-            this.txtStaffName.Size = new System.Drawing.Size(186, 27);
-            this.txtStaffName.TabIndex = 35;
-            // 
             // lblCustomerName
             // 
             this.lblCustomerName.AutoSize = true;
             this.lblCustomerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCustomerName.Location = new System.Drawing.Point(357, 134);
+            this.lblCustomerName.Location = new System.Drawing.Point(624, 81);
             this.lblCustomerName.Name = "lblCustomerName";
             this.lblCustomerName.Size = new System.Drawing.Size(150, 20);
             this.lblCustomerName.TabIndex = 34;
@@ -183,7 +182,7 @@ namespace GUI
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(752, 177);
+            this.label7.Location = new System.Drawing.Point(681, 170);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(84, 20);
             this.label7.TabIndex = 30;
@@ -202,7 +201,7 @@ namespace GUI
             // pictureBox_Exit
             // 
             this.pictureBox_Exit.Image = global::GUI.Properties.Resources.Exit;
-            this.pictureBox_Exit.Location = new System.Drawing.Point(1040, 9);
+            this.pictureBox_Exit.Location = new System.Drawing.Point(1026, 12);
             this.pictureBox_Exit.Name = "pictureBox_Exit";
             this.pictureBox_Exit.Size = new System.Drawing.Size(46, 45);
             this.pictureBox_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -252,18 +251,19 @@ namespace GUI
             this.btnTotalMoney.IdleFillColor = System.Drawing.Color.White;
             this.btnTotalMoney.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.btnTotalMoney.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.btnTotalMoney.Location = new System.Drawing.Point(703, 632);
+            this.btnTotalMoney.Location = new System.Drawing.Point(696, 621);
             this.btnTotalMoney.Margin = new System.Windows.Forms.Padding(5);
             this.btnTotalMoney.Name = "btnTotalMoney";
             this.btnTotalMoney.Size = new System.Drawing.Size(168, 68);
             this.btnTotalMoney.TabIndex = 39;
             this.btnTotalMoney.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnTotalMoney.Click += new System.EventHandler(this.btnTotalMoney_Click);
             // 
             // lblTabbleID
             // 
             this.lblTabbleID.AutoSize = true;
             this.lblTabbleID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTabbleID.Location = new System.Drawing.Point(750, 86);
+            this.lblTabbleID.Location = new System.Drawing.Point(357, 128);
             this.lblTabbleID.Name = "lblTabbleID";
             this.lblTabbleID.Size = new System.Drawing.Size(86, 20);
             this.lblTabbleID.TabIndex = 34;
@@ -272,26 +272,26 @@ namespace GUI
             // txtTableID
             // 
             this.txtTableID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTableID.Location = new System.Drawing.Point(886, 84);
+            this.txtTableID.Location = new System.Drawing.Point(475, 124);
             this.txtTableID.Name = "txtTableID";
             this.txtTableID.ReadOnly = true;
-            this.txtTableID.Size = new System.Drawing.Size(186, 27);
+            this.txtTableID.Size = new System.Drawing.Size(73, 27);
             this.txtTableID.TabIndex = 35;
             // 
             // txtDate
             // 
             this.txtDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDate.Location = new System.Drawing.Point(517, 175);
+            this.txtDate.Location = new System.Drawing.Point(434, 170);
             this.txtDate.Name = "txtDate";
             this.txtDate.ReadOnly = true;
-            this.txtDate.Size = new System.Drawing.Size(192, 27);
+            this.txtDate.Size = new System.Drawing.Size(174, 27);
             this.txtDate.TabIndex = 25;
             // 
             // lblDate
             // 
             this.lblDate.AutoSize = true;
             this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.Location = new System.Drawing.Point(363, 172);
+            this.lblDate.Location = new System.Drawing.Point(364, 173);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(55, 20);
             this.lblDate.TabIndex = 24;
@@ -300,20 +300,29 @@ namespace GUI
             // txtAddress
             // 
             this.txtAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.Location = new System.Drawing.Point(886, 175);
+            this.txtAddress.Location = new System.Drawing.Point(817, 166);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.ReadOnly = true;
-            this.txtAddress.Size = new System.Drawing.Size(186, 27);
+            this.txtAddress.Size = new System.Drawing.Size(255, 27);
             this.txtAddress.TabIndex = 35;
             // 
             // txtTotalMoney
             // 
             this.txtTotalMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotalMoney.Location = new System.Drawing.Point(886, 645);
+            this.txtTotalMoney.Location = new System.Drawing.Point(872, 632);
             this.txtTotalMoney.Name = "txtTotalMoney";
             this.txtTotalMoney.ReadOnly = true;
             this.txtTotalMoney.Size = new System.Drawing.Size(186, 38);
             this.txtTotalMoney.TabIndex = 40;
+            // 
+            // cbStaffName
+            // 
+            this.cbStaffName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbStaffName.FormattingEnabled = true;
+            this.cbStaffName.Location = new System.Drawing.Point(817, 118);
+            this.cbStaffName.Name = "cbStaffName";
+            this.cbStaffName.Size = new System.Drawing.Size(255, 30);
+            this.cbStaffName.TabIndex = 41;
             // 
             // frmBill
             // 
@@ -321,6 +330,7 @@ namespace GUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1098, 714);
+            this.Controls.Add(this.cbStaffName);
             this.Controls.Add(this.txtTotalMoney);
             this.Controls.Add(this.btnTotalMoney);
             this.Controls.Add(this.numericUpDown_Quantity);
@@ -328,7 +338,6 @@ namespace GUI
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtTableID);
             this.Controls.Add(this.txtAddress);
-            this.Controls.Add(this.txtStaffName);
             this.Controls.Add(this.lblTabbleID);
             this.Controls.Add(this.lblCustomerName);
             this.Controls.Add(this.label7);
@@ -359,16 +368,11 @@ namespace GUI
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel_Table;
         private System.Windows.Forms.DataGridView dataGridView_CheckBill;
         private System.Windows.Forms.PictureBox pictureBox_Exit;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FoodName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TotalMoney;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtCustomerName;
         private System.Windows.Forms.TextBox txtBill_Id;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtStaffName;
         private System.Windows.Forms.Label lblCustomerName;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -382,5 +386,10 @@ namespace GUI
         private System.Windows.Forms.TextBox txtAddress;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.TextBox txtTotalMoney;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FoodName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Total;
+        private System.Windows.Forms.ComboBox cbStaffName;
     }
 }

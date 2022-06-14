@@ -145,7 +145,9 @@ namespace GUI
         {
             try
             {
+                //
                 string tableID = ((sender as Button).Tag as Table).tableId;
+                Console.WriteLine("Table da chon la {0}", tableID);
                 dataGridView_Order.Tag = (sender as Button).Tag;
                 loadInfoOrder(dataGridView_Order, tableID);
             }

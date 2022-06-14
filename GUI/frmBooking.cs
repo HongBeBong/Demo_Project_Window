@@ -73,17 +73,19 @@ namespace GUI
 
         private int getInsertedCustomer()
         {
-            // lấy thông tin từ giao diện
-            string customerName = textBox_CustomerName.Text;
-            string phone = textBox_PhoneNumber.Text;
-            string address = textBox_Address.Text;
-            string gender;
-            if (radioButton_Female.Checked == true)
-                gender = "Female";
-            else 
-                gender = "Male";
-            // trả về true nếu thêm thành công, ngược lại: trả về false
-            return CustomerBUS.Instance.addCustomer(customerName, phone, address, gender);
+            
+                // lấy thông tin từ giao diện
+                string customerName = textBox_CustomerName.Text;
+                string phone = textBox_PhoneNumber.Text;
+                string address = textBox_Address.Text;
+                string gender;
+                if (radioButton_Female.Checked == true)
+                    gender = "Female";
+                else
+                    gender = "Male";
+                // trả về true nếu thêm thành công, ngược lại: trả về false
+                return CustomerBUS.Instance.addCustomer(customerName, phone, address, gender);
+           
         }
 
         // hàm xóa panel
@@ -120,8 +122,9 @@ namespace GUI
                     // khóa panel
                     panelCustomer.Enabled = false;
 
-                    // đổi trạng thái đặt bàng thành trống
-                    TableBUS.Instance.updateTableStatus(tableId, "ON");
+                    // đổi trạng thái đặt bàn thành có người
+                    //TableBUS.Instance.updateTableStatus(tableId, "ON");
+                    TableBUS.Instance.updateTableStatus(tableId, "OFF");
 
                     // thêm bill trống
                     addBill(customerId, tableId);
@@ -136,7 +139,7 @@ namespace GUI
             }
             else
             {
-                MessageBox.Show("Chưa tìm thấy khách hàng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Kiểm tra lại thông tin nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

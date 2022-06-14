@@ -31,7 +31,8 @@ namespace BUS
             {
                 List<Table> tables = TableDAO.Instance.readTable();
 
-                Table table = tables.First(t => t.tableTypeId == tableTypeId && t.status == "OFF");
+                //Table table = tables.First(t => t.tableTypeId == tableTypeId && t.status == "OFF");
+                Table table = tables.First(t => t.tableTypeId == tableTypeId && t.status == "ON");
 
                 return table.tableId;
             }

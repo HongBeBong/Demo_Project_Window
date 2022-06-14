@@ -27,5 +27,13 @@ namespace BUS
         {
             return ReservationDAO.Instance.createReservation(customerId, tableId, confirmTime);
         }
+
+        /*public Customer getCustomerIdByTableId (string tableId)
+        {
+            return ReservationDAO.Instance.getBookingInformation(tableId);
+        }*/
+
+
+        
     }
 }

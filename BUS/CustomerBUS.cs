@@ -38,6 +38,11 @@ namespace BUS
             return -1;
         }
 
+        public Customer getCustomer (int id)
+        {
+            return CustomerDAO.Instance.getCustomerById(id);
+        }
+
 
     }
 }

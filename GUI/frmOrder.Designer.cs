@@ -98,7 +98,7 @@ namespace GUI
             // 
             this.comboBox_Category.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_Category.FormattingEnabled = true;
-            this.comboBox_Category.Location = new System.Drawing.Point(526, 9);
+            this.comboBox_Category.Location = new System.Drawing.Point(553, 9);
             this.comboBox_Category.Name = "comboBox_Category";
             this.comboBox_Category.Size = new System.Drawing.Size(214, 28);
             this.comboBox_Category.TabIndex = 2;
@@ -108,7 +108,7 @@ namespace GUI
             // 
             this.comboBox_FoodName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_FoodName.FormattingEnabled = true;
-            this.comboBox_FoodName.Location = new System.Drawing.Point(526, 47);
+            this.comboBox_FoodName.Location = new System.Drawing.Point(553, 47);
             this.comboBox_FoodName.Name = "comboBox_FoodName";
             this.comboBox_FoodName.Size = new System.Drawing.Size(214, 28);
             this.comboBox_FoodName.TabIndex = 3;
@@ -116,37 +116,37 @@ namespace GUI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("VNI-Garam", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(357, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 22);
+            this.label1.Size = new System.Drawing.Size(159, 20);
             this.label1.TabIndex = 4;
             this.label1.Text = "Choose Category:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("VNI-Garam", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(357, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 22);
+            this.label2.Size = new System.Drawing.Size(125, 20);
             this.label2.TabIndex = 5;
             this.label2.Text = "Choose Food:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("VNI-Garam", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(357, 91);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(149, 22);
+            this.label3.Size = new System.Drawing.Size(154, 20);
             this.label3.TabIndex = 6;
             this.label3.Text = "Choose Quantity:";
             // 
             // numericUpDown_Quantity
             // 
             this.numericUpDown_Quantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown_Quantity.Location = new System.Drawing.Point(526, 91);
+            this.numericUpDown_Quantity.Location = new System.Drawing.Point(553, 91);
             this.numericUpDown_Quantity.Minimum = new decimal(new int[] {
             100,
             0,
@@ -160,10 +160,10 @@ namespace GUI
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("VNI-Garam", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(829, 613);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(738, 615);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(122, 22);
+            this.label4.Size = new System.Drawing.Size(130, 20);
             this.label4.TabIndex = 8;
             this.label4.Text = "Choose Table:";
             // 
@@ -171,7 +171,7 @@ namespace GUI
             // 
             this.comboBox_Table.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_Table.FormattingEnabled = true;
-            this.comboBox_Table.Location = new System.Drawing.Point(957, 607);
+            this.comboBox_Table.Location = new System.Drawing.Point(893, 612);
             this.comboBox_Table.Name = "comboBox_Table";
             this.comboBox_Table.Size = new System.Drawing.Size(129, 28);
             this.comboBox_Table.TabIndex = 9;
@@ -184,7 +184,7 @@ namespace GUI
             // pictureBox_Exit
             // 
             this.pictureBox_Exit.Image = global::GUI.Properties.Resources.Exit;
-            this.pictureBox_Exit.Location = new System.Drawing.Point(1040, 9);
+            this.pictureBox_Exit.Location = new System.Drawing.Point(1027, 9);
             this.pictureBox_Exit.Name = "pictureBox_Exit";
             this.pictureBox_Exit.Size = new System.Drawing.Size(46, 45);
             this.pictureBox_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -224,7 +224,7 @@ namespace GUI
             this.button_SwicthTable.IdleFillColor = System.Drawing.Color.White;
             this.button_SwicthTable.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.button_SwicthTable.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.button_SwicthTable.Location = new System.Drawing.Point(833, 658);
+            this.button_SwicthTable.Location = new System.Drawing.Point(761, 658);
             this.button_SwicthTable.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.button_SwicthTable.Name = "button_SwicthTable";
             this.button_SwicthTable.Size = new System.Drawing.Size(253, 43);

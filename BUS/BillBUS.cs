@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using DAO;
 using GUI.Models;
 
@@ -45,6 +46,30 @@ namespace BUS
             return BillDAO.Instance.createBill(customerId, tableId);
         }
 
+        public int getBillId(int customerId, string tableId)
+        {
+            return BillDAO.Instance.getBillId(customerId, tableId);
+        }
 
+
+        public void loadInfoBill(DataGridView dgv, int billId)
+        {
+            BillDAO.Instance.getDataGridViewInfomation(dgv, billId);
+        }
+
+        public bool updateEmployeeAndTime(int id, string employeeId, int totalprice)
+        {
+            return BillDAO.Instance.updateEmployeeAndTime(id, employeeId, totalprice);
+        }
+
+        public Bill getBillById (int id)
+        {
+            return BillDAO.Instance.getBillById(id);
+        }
+
+        public int getCustomerId (string tableId, int totalprice)
+        {
+            return BillDAO.Instance.getCustomerIdByTableIdAndToTal(tableId, totalprice);
+        }
     }
 }

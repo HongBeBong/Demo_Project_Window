@@ -353,7 +353,7 @@ namespace GUI
             // pictureBox_Exit
             // 
             this.pictureBox_Exit.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Exit.Image")));
-            this.pictureBox_Exit.Location = new System.Drawing.Point(1020, 13);
+            this.pictureBox_Exit.Location = new System.Drawing.Point(1007, 20);
             this.pictureBox_Exit.Name = "pictureBox_Exit";
             this.pictureBox_Exit.Size = new System.Drawing.Size(46, 45);
             this.pictureBox_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

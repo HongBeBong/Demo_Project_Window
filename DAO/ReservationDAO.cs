@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace DAO
 {
     public class ReservationDAO
@@ -122,5 +123,59 @@ namespace DAO
                 return false;
             }
         }
+
+       /* public Customer getBookingInformation (string tableId)
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    // join hai table để được một quan hệ mới : tableID | status | customerId 
+                    var info = context.Reservations
+                        .Join(context.Bills.Where(b => b.totalPrice == -1),
+                        reservation => reservation.tableId,
+                        bill => bill.tableId,
+                        (reservation, bill) => new
+                        {
+                            tableId = bill.tableId,
+                            total = bill.totalPrice,
+                            customerId = bill.customerId,
+                        }).Where(x => x.tableId == tableId )
+                        .Join(context.Tables,
+                        first => first.tableId,
+                        table => table.tableId,
+                        (first, table) => new
+                        {
+                            tableId = first.tableId,
+                            customerId = first.customerId,
+                            status = table.status,
+                            totalPrice = first.total
+                        })
+                        .ToList();
+
+                    foreach (var row in info)
+                    {
+                        Console.WriteLine("{0} , {1} , {2}, {3}", row.customerId, row.tableId, row.status, row.totalPrice);
+                    }
+                    
+
+                    // lấy customer id từ quan hệ mới tạo với điều kiện table đó đang được đặt
+                    var customerInfo = info.Where(i => i.tableId == tableId && i.status == "OFF" && i.totalPrice == -1 ).FirstOrDefault();
+                    if (customerInfo == null)
+                        return null;
+                    int customerId = customerInfo.customerId;
+                    // trả về đối tượng customer;
+                    Customer cus = context.Customers.Find(customerId);
+                    return cus;
+                }
+            }
+            catch
+            {
+                return null;
+            }
+        }*/
+
+
+        
     }
 }

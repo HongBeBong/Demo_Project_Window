@@ -65,7 +65,7 @@ namespace DAO
             }
             catch
             {
-                Console.WriteLine("Tao khach hang thanh cong");
+                Console.WriteLine("Tao khach hang khong thanh cong");
                 return false;
             }
         }

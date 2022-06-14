@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.Entity;
 using GUI;
 using GUI.Models;
 
@@ -71,13 +73,13 @@ namespace DAO
             }
         }
 
-        public Bill getBillById(int customerId)
+        public Bill getBillById(int billId)
         {
             try
             {
                 using (var context = new Context())
                 {
-                    var bill = context.Bills.SingleOrDefault(c => c.customerId == customerId);
+                    var bill = context.Bills.SingleOrDefault(c => c.billId == billId);
                     return bill;
                     // lấy thông tin hóa đơn thành công
                 }
@@ -131,5 +133,118 @@ namespace DAO
                 return false;
             }
         }
+
+        // hàm lấy billId bằng customerID và table ID và trạng thái bill
+
+        public int getBillId(int customerId, string tableID)
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    var bill = context.Bills.Where(b => b.customerId == customerId 
+                                                && b.tableId == tableID && b.totalPrice == -1)
+                                                .FirstOrDefault();
+                    if (bill != null)
+                    {
+                        return bill.billId;
+                    }
+                    return -1;
+                   
+                }
+            }
+            catch (Exception e)
+            {
+                return -1;
+            }
+        }
+
+
+        public void getDataGridViewInfomation(DataGridView dgv,  int billId)
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    var info = context.Bills.Join(context.BillDetails,
+                        bill => bill.billId,
+                        billdetail => billdetail.billId,
+                        (bill, billdetail) => new
+                        {
+                            billId = bill.billId,
+                            totalPrice = bill.totalPrice,
+                            dishId = billdetail.dishId,
+                            quantity = billdetail.quatity,
+                        })
+                        .Where(x => x.totalPrice == -1 && x.billId == billId)
+                        .Join(context.Dishes,
+                                i => i.dishId,
+                                dish => dish.dishId,
+                            (i, dish) => new
+                            {
+                                dishName = dish.dishName,
+                                quantity = i.quantity,
+                                price = dish.price,
+                                total = dish.price * i.quantity
+                            }) ;
+                    var listInfo = info.ToList();
+
+                    dgv.DataSource = listInfo;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Lấy thông tin thất bại");
+            }
+        }
+
+
+        // cập nhật thông tin bill và tên nhân viên
+        public bool updateEmployeeAndTime(int billId, string employeeId, int total)
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    var bill = context.Bills.Where(item => item.billId == billId).FirstOrDefault();
+                    if (bill != null)
+                    {
+                        bill.createAt = DateTime.Now;
+                        bill.employeeId = employeeId;
+                        bill.totalPrice = total;
+                        context.SaveChanges();
+                        return true;
+                    }
+                    return false;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public int getCustomerIdByTableIdAndToTal (string tableId, int totalprice)
+        {
+            try
+            {
+                using (var context = new Context())
+                {
+                    var billrecord = context.Bills.Where(b => b.tableId == tableId && b.totalPrice == totalprice).FirstOrDefault();
+                    return billrecord.customerId; 
+                }
+            }
+            catch
+            {
+                return -1;
+            }
+        }
+
+
+        
+
     }
+
+
 }
+
